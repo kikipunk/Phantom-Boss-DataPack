@@ -6,6 +6,7 @@ execute if score time pb_dummy matches 3600 run scoreboard players set time pb_d
 
 #Kill boss in daytime#
 execute store result score daytime pb_time run time query daytime
+execute if score daytime pb_time matches 0..13000 run data merge entity @e[type=phantom,tag=pb_boss] {DeathLootTable:"entities/phantom"}
 execute if score daytime pb_time matches 0..13000 run kill @e[type=phantom,tag=pb_boss]
 
 
