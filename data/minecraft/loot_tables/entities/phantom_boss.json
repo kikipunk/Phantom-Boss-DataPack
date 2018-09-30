@@ -1,0 +1,63 @@
+{
+    "pools": [
+        {
+		"conditions": [
+        	{
+                "condition": "killed_by_player"
+            }
+        ],
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:elytra",
+                "weight": 1,
+                "functions": [
+					{
+                    	"function": "set_count",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+					{
+						"function": "set_nbt",
+						"tag": "{display:{Name: \"{\\\"text\\\":\\\"§r§ePhantom Elytra\\\"}\",Lore:[\"\",\"§r§7Drop on Phantom Boss\"]},Enchantments:[{id:\"minecraft:loyalty\",lvl:1}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Slot:\"chest\",Amount:6,Operation:0,UUIDMost:65159,UUIDLeast:185513}]}"
+					}
+                ]
+            }
+        ]
+      },
+      {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:phantom_membrane",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ]
+        }
+    ]
+}
