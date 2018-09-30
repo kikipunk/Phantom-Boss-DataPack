@@ -7,7 +7,7 @@
 [Instructions](https://github.com/kikipunk/Phantom-Boss-DataPack/wiki/Installation)
 
 ### Downloads
-Now on curseforge! [https://minecraft.curseforge.com/projects/phantom_boss-datapack](https://minecraft.curseforge.com/projects/phantom_boss-datapack)
+Now on curseforge! [https://minecraft.curseforge.com/projects/phantom-boss-datapack](https://minecraft.curseforge.com/projects/phantom-boss-datapack)
 
 ### Credit
 By Kikipunk and Daminator4113
