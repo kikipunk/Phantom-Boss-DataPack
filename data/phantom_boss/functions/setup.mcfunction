@@ -1,5 +1,5 @@
 #Tellraw load#
-tellraw @a {"text":"Phantom Boss DataPack successfully loaded !! §6Version 1.0!!","color":"dark_aqua","hoverEvent":{"action":"show_text","value":"By Kikipunk and Daminator4113"}}
+tellraw @a ["",{"text":"Phantom Boss DataPack successfully loaded !! ","color":"dark_aqua","hoverEvent":{"action":"show_text","value":"By Kikipunk and Daminator4113"}},{"text":"Version 1.1!!","color":"gold","hoverEvent":{"action":"show_text","value":"By Kikipunk and Daminator4113"}}]
 
 #Scoreboard load#
 scoreboard objectives add pb_dummy dummy
